@@ -1,0 +1,57 @@
+.btn { 
+	border: none;  
+	padding: 0; 
+	margin: 0; 
+	font-size: 0;
+	line-height: 0;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+}
+
+/*фигуры*/
+.btn-round { border-radius: 50%; }
+
+/*анимация*/
+.btn-animation-1s-ease { transition: all .3s ease;}
+.btn-animation-1s-ease-in { transition: all .3s ease-in; }
+.btn-animation-1s-ease-out { transition: all .3s ease-out; }
+.btn-animation-1s-ease-in-out { transition: all .3s ease-in-out; }
+
+/*размеры*/
+.btn-small { width: 20px; height: 20px; }
+.btn-medium { width: 30px; height: 30px; }
+.btn-big { width: 40px; height: 40px; }
+.btn-small svg{ width: 6px; }
+.btn-medium svg{width: 10px; }
+.btn-big svg{ width: 15px; }
+
+/*facebook*/
+.btn-facebook { background-color: #3b5998; }
+.btn-facebook svg{ fill: #fff; padding: 4px 0;}
+.btn-facebook:hover { background-color: #fff; }
+.btn-facebook:hover svg { fill: #3b5998; }
+
+/*facebook-2*/
+.btn-facebook-2 { background-color: #fff; border: 2px solid #3b5998}
+.btn-facebook-2 svg{ fill: #3b5998; padding: 4px 0;}
+.btn-facebook-2:hover { background-color: #3b5998; }
+.btn-facebook-2:hover svg { fill: #fff; }
+
+/*facebook-3*/
+.btn-facebook-3 { background-color: rgba(0,0,0,0); border: 2px solid rgba(0,0,0,0)}
+.btn-facebook-3 svg{ fill: #3b5998; padding: 4px 0;}
+.btn-facebook-3:hover { background-color: #3b5998; }
+.btn-facebook-3:hover svg { fill: #fff; }
+
+/*facebook-4*/
+.btn-facebook-4 { border: 2px solid rgba(0,0,0,0)}
+.btn-facebook-4 svg{ fill: #3b5998; padding: 4px 0;}
+.btn-facebook-4:hover { border: 2px solid #3b5998}
+.btn-facebook-4:hover svg { fill: #3b5998; }
+
+/*facebook-5*/
+.btn-facebook-5 { background-color: #3b5998; border: 2px solid #fff}
+.btn-facebook-5 svg{ fill: #fff; padding: 4px 0;}
+.btn-facebook-5:hover { background-color: #fff; border: 2px solid #3b5998}
+.btn-facebook-5:hover svg { fill: #3b5998; }
